@@ -18,6 +18,6 @@ uninstall:
 	$(RM) $(INSTALL_DIR)/sdrow
 
 clean:
-	$(RM) sdrow sdrow.c
+	$(RM) sdrow
 
 .PHONY: clean all install uninstall
